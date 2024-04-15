@@ -1,9 +1,9 @@
 # GAM-Depth
-PyTorch implementation of our paper:
+PyTorch implementation of our paper (2024 ICRA):
 
 GAM-Depth: Self-Supervised Indoor Depth Estimation Leveraging a Gradient-Aware Mask and Semantic Constraints
 
-Anqi Cheng, ZHiyuan Yang, Haiyue Zhu, Kezhi Mao
+Anqi Cheng, Zhiyuan Yang, Haiyue Zhu, Kezhi Mao
 
 ![Local Image](https://github.com/AnqiCheng1234/GAM-Depth/blob/master/assets/overall_pipeline.jpg)
 
@@ -86,3 +86,13 @@ python train.py \
 ```
 ## Acknowledgement
 We borrowed a lot of codes from [scikit-image](https://github.com/scikit-image/scikit-image), [monodepth2](https://github.com/nianticlabs/monodepth2), [P<sup>2</sup>Net](https://github.com/svip-lab/Indoor-SfMLearner), [StructDepth](https://github.com/SJTU-ViSYS/StructDepth), [Light-Weight RefineNet](https://github.com/DrSleep/light-weight-refinenet), and [LEGO](https://github.com/zhenheny/LEGO). Thanks for their excellent works!
+
+### Citation
+```bash
+@article{cheng2024gam,
+  title={GAM-Depth: Self-Supervised Indoor Depth Estimation Leveraging a Gradient-Aware Mask and Semantic Constraints},
+  author={Cheng, Anqi and Yang, Zhiyuan and Zhu, Haiyue and Mao, Kezhi},
+  journal={arXiv preprint arXiv:2402.14354},
+  year={2024}
+}
+```
